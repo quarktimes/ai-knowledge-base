@@ -485,6 +485,7 @@ def _format_article(item: dict[str, Any]) -> dict[str, Any]:
         "source_type": source_type,
         "summary": analysis.get("summary", item.get("summary", "")),
         "tags": tags,
+        "score": analysis.get("score", 5),
         "status": "draft",
         "created_at": timestamp,
         "updated_at": timestamp,

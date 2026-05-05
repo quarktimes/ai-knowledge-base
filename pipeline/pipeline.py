@@ -17,7 +17,6 @@ import os
 import re
 import sys
 import time
-import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -46,6 +45,12 @@ HTML_TAG_RE = re.compile(r"<[^>]+>")
 
 SOURCE_CODE_MAP = {
     "github_trending": "gh",
+    "hacker_news": "hn",
+    "rss": "rss",
+}
+
+ID_PREFIX_MAP = {
+    "github_trending": "github",
     "hacker_news": "hn",
     "rss": "rss",
 }
@@ -413,6 +418,43 @@ def _load_existing_articles() -> list[dict[str, Any]]:
     return articles
 
 
+_id_counters: dict[str, int] = {}
+
+
+def _generate_article_id(source_type: str) -> str:
+    """Generate a sequential article ID in {source}-{YYYYMMDD}-{NNN} format.
+
+    Args:
+        source_type: Source type string (e.g. github_trending, hacker_news).
+
+    Returns:
+        A unique ID string, e.g. github-20260504-001.
+    """
+    prefix = ID_PREFIX_MAP.get(source_type, source_type)
+    date_part = datetime.now(timezone.utc).strftime("%Y%m%d")
+    cache_key = f"{prefix}-{date_part}"
+
+    if cache_key not in _id_counters:
+        max_seq = 0
+        existing_pattern = re.compile(rf"^{re.escape(prefix)}-{re.escape(date_part)}-(\d{{3}})$")
+        if ARTICLES_DIR.is_dir():
+            for fpath in ARTICLES_DIR.glob("*.json"):
+                try:
+                    data = json.loads(fpath.read_text(encoding="utf-8"))
+                    entry_id = data.get("id", "")
+                    m = existing_pattern.match(str(entry_id))
+                    if m:
+                        seq = int(m.group(1))
+                        if seq > max_seq:
+                            max_seq = seq
+                except (json.JSONDecodeError, OSError):
+                    continue
+        _id_counters[cache_key] = max_seq
+
+    _id_counters[cache_key] += 1
+    return f"{prefix}-{date_part}-{_id_counters[cache_key]:03d}"
+
+
 def _format_article(item: dict[str, Any]) -> dict[str, Any]:
     """Convert a raw/analyzed item into standard article format.
 
@@ -434,17 +476,16 @@ def _format_article(item: dict[str, Any]) -> dict[str, Any]:
         if source_tag not in tags:
             tags.append(source_tag)
 
-    article_id = str(uuid.uuid4())
     timestamp = now_iso()
 
     return {
-        "id": article_id,
+        "id": _generate_article_id(source_type),
         "title": item["title"],
         "source_url": item["url"],
         "source_type": source_type,
         "summary": analysis.get("summary", item.get("summary", "")),
         "tags": tags,
-        "status": "pending",
+        "status": "draft",
         "created_at": timestamp,
         "updated_at": timestamp,
     }

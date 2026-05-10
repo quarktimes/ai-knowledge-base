@@ -73,7 +73,7 @@ def _worker_attempt(task: str, previous_feedback: str | None = None) -> str:
             f"\n\nYour previous output needs improvement. "
             f"Please revise based on this feedback:\n{previous_feedback}"
         )
-    text, _ = chat(prompt, system_prompt=WORKER_SYSTEM)
+    text, _ = chat(prompt, system=WORKER_SYSTEM)
     return text
 
 
@@ -111,7 +111,7 @@ def _supervisor_review(output: str, task: str) -> dict[str, Any]:
         f"Worker output:\n{output}\n\n"
         f"Review the above output and provide scores."
     )
-    text, _ = chat(prompt, system_prompt=SUPERVISOR_SYSTEM)
+    text, _ = chat(prompt, system=SUPERVISOR_SYSTEM)
 
     review = _parse_json(text)
     if review is None:

@@ -99,7 +99,7 @@ def _llm_classify(query: str) -> str:
         Intent name: github_search, knowledge_query, or general_chat.
     """
     try:
-        text, _ = chat(query, system_prompt=LLM_CLASSIFY_SYSTEM)
+        text, _ = chat(query, system=LLM_CLASSIFY_SYSTEM)
         text = text.strip().lower()
         if "github_search" in text:
             return "github_search"
@@ -274,7 +274,7 @@ def handle_general_chat(query: str) -> str:
         "回答应简洁、准确、有帮助。"
     )
     try:
-        text, _ = chat(query, system_prompt=system)
+        text, _ = chat(query, system=system)
         return text
     except RuntimeError as e:
         logger.error("Chat failed: %s", e)

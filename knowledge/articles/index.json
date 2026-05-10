@@ -1,0 +1,62 @@
+[
+  {
+    "id": "3d71ea7d-3750-4999-a4a1-0a0288d8f756",
+    "title": "openclaw/openclaw",
+    "source_url": "https://github.com/openclaw/openclaw",
+    "filename": "2026-05-10-gh-openclaw-openclaw.json"
+  },
+  {
+    "id": "895d7a15-c581-4366-979f-34269b37e5fd",
+    "title": "n8n-io/n8n",
+    "source_url": "https://github.com/n8n-io/n8n",
+    "filename": "2026-05-10-gh-n8n-io-n8n.json"
+  },
+  {
+    "id": "81028b8e-90a4-436c-b62c-d72ee6a6f2ea",
+    "title": "obra/superpowers",
+    "source_url": "https://github.com/obra/superpowers",
+    "filename": "2026-05-10-gh-obra-superpowers.json"
+  },
+  {
+    "id": "a381b90f-9ac4-4b7b-aa09-1ffc2a65cc67",
+    "title": "Significant-Gravitas/AutoGPT",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "filename": "2026-05-10-gh-significant-gravitas-autogpt.json"
+  },
+  {
+    "id": "1b687ec5-7e8d-4255-b46a-b8dd7b2aac77",
+    "title": "affaan-m/everything-claude-code",
+    "source_url": "https://github.com/affaan-m/everything-claude-code",
+    "filename": "2026-05-10-gh-affaan-m-everything-claude-code.json"
+  },
+  {
+    "id": "fb56aba8-8171-4bf6-803a-08a6eab8de5b",
+    "title": "ollama/ollama",
+    "source_url": "https://github.com/ollama/ollama",
+    "filename": "2026-05-10-gh-ollama-ollama.json"
+  },
+  {
+    "id": "cfe5bfb8-d6a9-4524-b49b-11f0a5d890ae",
+    "title": "AUTOMATIC1111/stable-diffusion-webui",
+    "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "filename": "2026-05-10-gh-automatic1111-stable-diffusion-webui.json"
+  },
+  {
+    "id": "1673cdb3-8fb3-40dd-8b9a-f33369590a0d",
+    "title": "f/prompts.chat",
+    "source_url": "https://github.com/f/prompts.chat",
+    "filename": "2026-05-10-gh-f-prompts-chat.json"
+  },
+  {
+    "id": "e5584b29-4398-46d8-bf13-dec4f779c90a",
+    "title": "huggingface/transformers",
+    "source_url": "https://github.com/huggingface/transformers",
+    "filename": "2026-05-10-gh-huggingface-transformers.json"
+  },
+  {
+    "id": "ead56eca-f8c5-49d3-ad4b-3928831a3646",
+    "title": "anomalyco/opencode",
+    "source_url": "https://github.com/anomalyco/opencode",
+    "filename": "2026-05-10-gh-anomalyco-opencode.json"
+  }
+]

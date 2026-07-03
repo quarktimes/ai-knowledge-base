@@ -447,8 +447,12 @@ def _generate_article_id(source_type: str) -> str:
         existing_pattern = re.compile(rf"^{re.escape(prefix)}-{re.escape(date_part)}-(\d{{3}})$")
         if ARTICLES_DIR.is_dir():
             for fpath in ARTICLES_DIR.glob("*.json"):
+                if fpath.name == "index.json":
+                    continue
                 try:
                     data = json.loads(fpath.read_text(encoding="utf-8"))
+                    if not isinstance(data, dict):
+                        continue
                     entry_id = data.get("id", "")
                     m = existing_pattern.match(str(entry_id))
                     if m:

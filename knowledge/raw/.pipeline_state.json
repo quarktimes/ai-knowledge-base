@@ -3,21 +3,20 @@
     "title": "openclaw/openclaw",
     "url": "https://github.com/openclaw/openclaw",
     "source": "github_trending",
-    "popularity": 385205,
+    "popularity": 385320,
     "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
     "analysis": {
-      "summary": "OpenClaw 是一款跨平台、跨操作系统的个人AI助手，采用“龙虾方式”提供灵活、自主的智能服务。其核心价值在于打破设备与系统限制，让用户在任何环境都能获得一致的AI体验。技术亮点包括多平台适配与自主决策能力，适用于日常任务自动化、信息管理与个性化交互等场景。",
+      "summary": "OpenClaw 是一个跨平台、跨操作系统的个人AI助手项目，以“龙虾之道”为理念，强调灵活性和普适性。其核心价值在于提供统一的AI交互层，支持在任何设备上运行，便于用户管理日常任务、获取信息并自动化工作流。技术亮点包括多平台适配和模块化设计，适用于个人效率提升、智能家居控制及轻量级自动化场景。",
       "highlights": [
-        "支持任意操作系统与平台，实现真正的跨设备无缝体验",
-        "以“龙虾方式”强调自主性与灵活性，AI可主动适应用户需求",
-        "开源项目，社区驱动，易于定制与扩展"
+        "跨平台支持：覆盖任意操作系统和硬件平台，实现无缝AI接入",
+        "模块化架构：便于扩展自定义技能和集成第三方服务",
+        "轻量级部署：适合个人用户快速搭建专属AI助手"
       ],
       "score": 7,
       "tags": [
         "AI Assistant",
         "Cross-Platform",
-        "Open Source",
-        "Personalization"
+        "Personal Automation"
       ]
     }
   },
@@ -25,14 +24,14 @@
     "title": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "source": "github_trending",
-    "popularity": 266892,
+    "popularity": 267691,
     "summary": "An agentic skills framework & software development methodology that works.",
     "analysis": {
-      "summary": "Superpowers 是一个智能体技能框架与软件开发方法论，旨在提升 AI 编程代理（如 Claude Code）的能力。它通过结构化技能、工作流和提示词，使代理能更自主、可靠地完成复杂开发任务，如规划、编码、测试和调试。核心价值在于将最佳实践固化到代理行为中，提高开发效率与代码质量，适用于需要 AI 辅助的软件项目。",
+      "summary": "Superpowers 是一个智能体技能框架与软件开发方法论，旨在提升 AI 编码代理（如 Claude Code）的能力。它通过结构化的技能、工作流和提示词，使代理能更自主、可靠地完成复杂开发任务，如规划、编码、测试和调试。核心价值在于将最佳实践固化，让代理行为更可预测、高效，适用于需要深度 AI 辅助的软件项目。",
       "highlights": [
         "提供可复用的技能模块，增强 AI 代理的自主开发能力",
         "结合方法论，优化代理在真实项目中的工作流程",
-        "开源且易于集成，可快速提升现有 AI 编程工具效果"
+        "开源且易于集成到现有 AI 编码工具链中"
       ],
       "score": 8,
       "tags": [
@@ -47,21 +46,21 @@
     "title": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ECC",
     "source": "github_trending",
-    "popularity": 237868,
+    "popularity": 238140,
     "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "analysis": {
-      "summary": "ECC 是一个面向 Claude Code、Codex、Opencode、Cursor 等 AI 编码代理的性能优化系统，通过技能、直觉、记忆、安全及研究优先的开发方式，提升代理在复杂任务中的表现。其核心价值在于统一优化多个代理平台，增强代理的上下文利用和决策能力，适用于自动化编码、代码审查和复杂项目维护等场景。",
+      "summary": "ECC是一个面向Claude Code、Codex、Opencode、Cursor等AI编程代理的性能优化系统，通过技能、直觉、记忆、安全及研究优先的开发模式，提升代理执行效率与可靠性。其核心价值在于统一优化多代理环境下的行为表现，适用于复杂软件开发任务中的自动化辅助。",
       "highlights": [
-        "跨平台支持主流 AI 编码代理，提供统一优化方案",
-        "集成技能、直觉、记忆与安全机制，提升代理智能与可靠性",
-        "研究优先的开发理念，确保系统持续演进"
+        "跨平台支持主流AI编程代理，提供统一优化方案",
+        "集成技能、直觉、记忆与安全机制，增强代理稳定性",
+        "研究优先的开发理念，推动代理性能持续改进"
       ],
-      "score": 8,
+      "score": 7,
       "tags": [
         "Agent",
-        "Optimization",
-        "DevTools",
-        "AI"
+        "Performance Optimization",
+        "AI Coding",
+        "Developer Tools"
       ]
     }
   },
@@ -69,19 +68,20 @@
     "title": "NousResearch/hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "source": "github_trending",
-    "popularity": 225777,
+    "popularity": 226345,
     "summary": "The agent that grows with you",
     "analysis": {
-      "summary": "Hermes-Agent 是一个由 NousResearch 推出的智能体框架，强调与用户共同成长的能力。它通过持续学习和自适应机制，逐步优化任务执行策略，适用于个性化助手、自动化工作流和复杂决策支持等场景。其核心价值在于动态演进，而非静态预设。",
+      "summary": "Hermes-Agent 是一个强调与用户共同成长的智能体框架，由 NousResearch 开发。其核心价值在于提供可扩展、自适应的 Agent 架构，支持个性化学习和持续进化。技术亮点包括模块化设计、记忆机制和工具调用能力，适用于复杂任务自动化、个性化助手及研究探索等场景。",
       "highlights": [
-        "自适应学习：根据用户反馈和行为动态调整策略",
-        "模块化设计：易于扩展和集成到现有系统",
-        "强调长期成长：从简单任务逐步过渡到复杂任务"
+        "模块化架构，支持灵活扩展和定制",
+        "内置记忆与学习机制，实现个性化成长",
+        "强调与用户共同进化，适应长期需求"
       ],
       "score": 7,
       "tags": [
         "Agent",
-        "Adaptive Learning",
+        "LLM",
+        "Adaptive",
         "Framework"
       ]
     }
@@ -90,20 +90,21 @@
     "title": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
     "source": "github_trending",
-    "popularity": 204076,
+    "popularity": 205874,
     "summary": "Skills for Real Engineers. Straight from my .agents directory.",
     "analysis": {
-      "summary": "mattpocock/skills 是一个面向真实工程师的实用技能集合，直接来自作者的 .agents 目录。它提供了可复用的 Agent 技能定义，涵盖代码审查、测试、调试等常见工程任务，帮助开发者快速构建和部署 AI 代理工作流，提升日常开发效率。",
+      "summary": "mattpocock/skills 是一个面向真实工程师的 AI 技能集合，直接来自作者的 .agents 目录。它提供可复用的提示词和工具配置，帮助开发者更高效地使用 AI 编码助手，覆盖代码审查、调试、重构等常见场景，提升工程实践中的 AI 协作效率。",
       "highlights": [
-        "直接可用的 Agent 技能库，覆盖真实工程场景",
-        "基于作者实战经验，配置简洁易上手",
-        "与 .agents 目录集成，便于版本管理和共享"
+        "直接可用的实战技能包，源自真实工程环境",
+        "覆盖多种开发场景，提升 AI 辅助编码质量",
+        "轻量级、易集成，适合个人或团队快速采用"
       ],
       "score": 7,
       "tags": [
-        "Agent",
+        "AI Coding",
         "Developer Tools",
-        "Workflow"
+        "Prompt Engineering",
+        "Best Practices"
       ]
     }
   },
@@ -111,18 +112,19 @@
     "title": "multica-ai/andrej-karpathy-skills",
     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
     "source": "github_trending",
-    "popularity": 199737,
+    "popularity": 200085,
     "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
     "analysis": {
-      "summary": "该项目提供单个CLAUDE.md文件，基于Andrej Karpathy对LLM编码陷阱的观察，优化Claude Code的行为。核心价值在于通过简洁的提示词配置，提升代码生成质量，减少常见错误。适用于使用Claude Code进行日常开发的工程师，可快速集成，改善编码体验。",
+      "summary": "该项目提供单个CLAUDE.md文件，基于Andrej Karpathy对LLM编码陷阱的观察，优化Claude Code的行为。核心价值在于通过简洁的指令集提升AI编程助手的代码质量与效率，适用于日常开发中减少常见错误。技术亮点是轻量级、易集成，可直接放入项目根目录使用。",
       "highlights": [
-        "源自Karpathy的实战经验，针对性强",
-        "单文件配置，即插即用，零依赖",
-        "直接提升Claude Code的代码质量与稳定性"
+        "基于Karpathy的实战经验，针对LLM编码痛点定制",
+        "单文件配置，即插即用，无侵入性",
+        "提升代码生成准确性与可维护性"
       ],
       "score": 7,
       "tags": [
         "Claude Code",
+        "LLM",
         "Prompt Engineering",
         "Developer Tools"
       ]
@@ -132,14 +134,14 @@
     "title": "n8n-io/n8n",
     "url": "https://github.com/n8n-io/n8n",
     "source": "github_trending",
-    "popularity": 199403,
+    "popularity": 199529,
     "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
     "analysis": {
-      "summary": "n8n 是一个公平代码的工作流自动化平台，原生集成 AI 能力，支持可视化构建与自定义代码结合，可自托管或使用云服务，提供 400+ 集成。核心价值在于降低自动化门槛，同时保持灵活性和数据控制权，适用于业务流程自动化、AI 代理编排及系统集成等场景。",
+      "summary": "n8n 是一个公平代码的工作流自动化平台，原生集成 AI 能力，支持可视化构建与自定义代码结合，可自托管或使用云服务，提供 400+ 集成。适用于自动化业务流程、AI 代理编排、数据同步等场景，降低自动化门槛，提升效率。",
       "highlights": [
-        "原生 AI 节点与 LangChain 集成，支持构建复杂 AI 工作流",
-        "公平代码模式，兼顾开源与商业可持续性",
-        "400+ 集成，覆盖主流 SaaS、数据库及 API"
+        "原生 AI 能力，支持构建 AI 代理和复杂工作流",
+        "400+ 集成，覆盖主流应用和服务",
+        "公平代码许可，支持自托管，数据可控"
       ],
       "score": 8,
       "tags": [
@@ -154,21 +156,21 @@
     "title": "ultraworkers/claw-code",
     "url": "https://github.com/ultraworkers/claw-code",
     "source": "github_trending",
-    "popularity": 194972,
+    "popularity": 194980,
     "summary": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
     "analysis": {
-      "summary": "claw-code 是一个完全由 AI 代理自主开发与维护的博物馆展品，基于 Rust 构建，采用 Gajae-Code / LazyCodex 技术。它展示了无人工干预的软件生命周期管理，涵盖编码、测试、部署与迭代。核心价值在于验证 AI 代理在真实项目中的自主能力，适用于研究、教育及展示 AI 驱动的软件开发范式。",
+      "summary": "claw-code 是一个完全由 AI 代理自主开发与维护的博物馆展品，基于 Rust 构建，采用 Gajae-Code / LazyCodex 技术。它展示了无人工干预的软件生命周期管理，涵盖编码、测试、部署与迭代，是 AI 自主编程能力的实证，适用于研究、教育与技术展示场景。",
       "highlights": [
-        "完全自主的 AI 代理开发与维护，无需人工介入",
+        "完全无人工干预的 AI 代理驱动开发与维护",
         "基于 Rust 的高性能实现，结合 Gajae-Code / LazyCodex 技术",
-        "作为博物馆展品，兼具技术展示与教育意义"
+        "作为博物馆展品，兼具技术示范与教育意义"
       ],
-      "score": 7,
+      "score": 8,
       "tags": [
         "AI Agent",
-        "Rust",
         "Autonomous Development",
-        "Museum Exhibit"
+        "Rust",
+        "Self-Programming"
       ]
     }
   },
@@ -176,20 +178,20 @@
     "title": "anomalyco/opencode",
     "url": "https://github.com/anomalyco/opencode",
     "source": "github_trending",
-    "popularity": 193592,
+    "popularity": 194080,
     "summary": "The open source coding agent.",
     "analysis": {
-      "summary": "opencode 是一个开源编码代理，旨在自动化软件开发任务。它提供命令行界面，支持多文件编辑、代码生成与重构，并集成多种AI模型。核心价值在于提升开发效率，适用于代码补全、bug修复和项目脚手架搭建等场景。",
+      "summary": "opencode 是一个开源编码代理，旨在自动化软件开发任务。它提供命令行界面，支持多文件编辑、代码生成与重构，并集成多种大语言模型。核心价值在于提升开发效率，适用于代码补全、Bug修复和自动化测试等场景。其技术亮点包括可扩展的架构和灵活的模型适配。",
       "highlights": [
-        "开源且可自托管，保护代码隐私",
-        "支持多种主流AI模型，灵活切换",
-        "提供交互式CLI，易于集成到现有工作流"
+        "开源且支持多模型，降低使用门槛",
+        "提供命令行交互，易于集成到现有工作流",
+        "支持多文件操作，适合复杂任务"
       ],
-      "score": 7,
+      "score": 8,
       "tags": [
         "Coding Agent",
         "CLI",
-        "AI",
+        "LLM",
         "Developer Tools"
       ]
     }
@@ -198,21 +200,21 @@
     "title": "Significant-Gravitas/AutoGPT",
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
     "source": "github_trending",
-    "popularity": 185824,
+    "popularity": 185846,
     "summary": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
     "analysis": {
       "summary": "AutoGPT 是一个开源项目，旨在让每个人都能轻松使用和构建 AI 代理。它提供了强大的工具和平台，支持自主任务执行、多步骤规划和工具调用。核心价值在于降低 AI 代理开发门槛，适用于自动化工作流、智能助手和复杂任务处理等场景。",
       "highlights": [
-        "提供可视化流程编辑器和无代码/低代码构建工具，简化 AI 代理开发",
-        "支持多种 AI 模型和工具集成，实现自主决策与执行",
-        "活跃的社区和丰富的模板，加速应用落地"
+        "提供可视化流程编辑器和无代码构建工具，降低 AI 代理开发门槛",
+        "支持多种 AI 模型和工具集成，实现自主任务规划与执行",
+        "活跃的开源社区和丰富的插件生态，加速应用落地"
       ],
       "score": 8,
       "tags": [
         "AI Agent",
         "Automation",
         "Open Source",
-        "Low-code"
+        "LLM"
       ]
     }
   },
@@ -220,21 +222,21 @@
     "title": "ollama/ollama",
     "url": "https://github.com/ollama/ollama",
     "source": "github_trending",
-    "popularity": 177829,
+    "popularity": 177897,
     "summary": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "analysis": {
-      "summary": "Ollama 是一个本地运行大语言模型的工具，支持 Kimi-K2.6、GLM-5.2、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等主流模型。它提供简洁的命令行界面和 API，让开发者无需复杂配置即可在本地或私有环境部署和调用模型，兼顾数据隐私与性能，适合快速原型开发、离线推理和边缘计算场景。",
+      "summary": "Ollama 是一款极简的本地大模型运行工具，支持一键安装并运行 Kimi-K2.6、GLM-5.2、DeepSeek、Qwen、Gemma 等主流开源模型。它提供命令行和 API 接口，无需复杂配置即可在本地 GPU/CPU 上高效推理，适合开发者快速集成和实验，降低大模型使用门槛。",
       "highlights": [
-        "一键安装并运行多种主流开源大模型，简化本地部署流程",
-        "提供统一 API 和命令行工具，支持模型管理、参数调优和自定义",
-        "支持 CPU/GPU 混合推理，降低硬件门槛，适合个人和中小企业"
+        "支持多种最新开源模型，一键拉取运行",
+        "提供统一 API 和 CLI，易于集成到应用中",
+        "本地运行，数据隐私安全，离线可用"
       ],
       "score": 8,
       "tags": [
         "LLM",
         "Local Inference",
         "CLI",
-        "Model Management"
+        "Open Source"
       ]
     }
   },
@@ -242,21 +244,21 @@
     "title": "f/prompts.chat",
     "url": "https://github.com/f/prompts.chat",
     "source": "github_trending",
-    "popularity": 166759,
+    "popularity": 166808,
     "summary": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
     "analysis": {
-      "summary": "f/prompts.chat 是一个开源社区驱动的提示词分享平台，前身为 Awesome ChatGPT Prompts。它允许用户发现、分享和收藏各类 AI 提示词，并支持自托管部署，为企业提供完全私密的提示词管理方案。核心价值在于汇聚社区智慧，提升 AI 工具使用效率，适用于个人学习、团队协作及企业内训等场景。",
+      "summary": "f/prompts.chat 是一个开源社区平台，用于分享、发现和收集 ChatGPT 提示词。它提供免费自托管方案，支持组织内部私有部署，确保数据隐私。核心价值在于汇聚社区智慧，提升提示词工程效率，适用于个人学习、团队协作及企业AI应用开发。",
       "highlights": [
-        "社区驱动，海量高质量提示词持续更新",
+        "社区驱动，海量提示词资源持续更新",
         "支持自托管，保障企业数据隐私与安全",
-        "免费开源，易于定制和集成"
+        "开源免费，易于定制和集成"
       ],
       "score": 7,
       "tags": [
         "Prompt Engineering",
         "Open Source",
         "Community",
-        "Self-hosted"
+        "ChatGPT"
       ]
     }
   },
@@ -264,21 +266,22 @@
     "title": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
     "source": "github_trending",
-    "popularity": 166373,
+    "popularity": 166596,
     "summary": "Public repository for Agent Skills",
     "analysis": {
-      "summary": "Anthropics官方发布的Agent Skills公共仓库，提供可复用的技能模块，用于增强AI代理在特定任务中的能力。包含文档、示例和最佳实践，支持快速集成到Claude等系统中，提升自动化工作流的效率与准确性。",
+      "summary": "Anthropics官方发布的Agent Skills公共仓库，提供可复用的技能模块，用于增强AI代理在特定任务中的能力。核心价值在于标准化技能的定义、发现与集成，支持快速扩展代理功能。技术亮点包括模块化设计、与Claude生态深度集成，以及社区驱动的技能共享。适用于自动化工作流、代码生成、数据分析等场景，降低AI应用开发门槛。",
       "highlights": [
-        "官方出品，质量与兼容性有保障",
-        "模块化设计，便于复用与扩展",
-        "覆盖多种实用场景，降低开发门槛"
+        "官方维护，与Claude深度集成，提供高质量技能模块",
+        "模块化设计，支持快速复用与组合，提升开发效率",
+        "社区驱动，促进技能共享与生态建设"
       ],
       "score": 8,
       "tags": [
         "Agent",
         "Skills",
-        "Anthropic",
-        "Automation"
+        "Claude",
+        "Modular",
+        "AI"
       ]
     }
   },
@@ -286,21 +289,21 @@
     "title": "AUTOMATIC1111/stable-diffusion-webui",
     "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     "source": "github_trending",
-    "popularity": 164400,
+    "popularity": 164417,
     "summary": "Stable Diffusion web UI",
     "analysis": {
-      "summary": "Stable Diffusion WebUI 是一个开源的浏览器界面，用于运行和操作 Stable Diffusion 图像生成模型。它提供了丰富的功能，如提示词管理、模型切换、图像放大、修复和扩展，以及多种采样器和插件支持。该工具极大降低了 AI 绘画的门槛，适合艺术家、设计师和爱好者快速生成高质量图像，并支持自定义训练和扩展。",
+      "summary": "Stable Diffusion WebUI 是广受欢迎的开源图像生成工具，提供直观的浏览器界面，支持文生图、图生图、超分辨率、修复等丰富功能。其核心价值在于将复杂的扩散模型封装为易用的操作流程，并支持大量扩展插件，极大降低了AI绘画门槛。适用于艺术创作、设计原型、内容生成等场景，是社区生态最活跃的AI绘画平台之一。",
       "highlights": [
-        "提供直观的 Web 界面，无需编程即可使用 Stable Diffusion",
-        "支持多种模型、采样器和扩展插件，功能高度可定制",
-        "集成图像修复、放大、提示词矩阵等高级功能"
+        "提供全面的图像生成与编辑功能，支持多种采样器和模型",
+        "拥有庞大的插件生态，可扩展ControlNet、LoRA等高级特性",
+        "一键安装与Web UI交互，适合各层次用户快速上手"
       ],
       "score": 8,
       "tags": [
         "Stable Diffusion",
         "AI Art",
-        "Web UI",
-        "Image Generation"
+        "Image Generation",
+        "Web UI"
       ]
     }
   },
@@ -308,21 +311,22 @@
     "title": "huggingface/transformers",
     "url": "https://github.com/huggingface/transformers",
     "source": "github_trending",
-    "popularity": 163358,
+    "popularity": 163401,
     "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
     "analysis": {
-      "summary": "Hugging Face Transformers 是当前最流行的模型定义与训练框架，支持文本、视觉、音频及多模态模型，提供统一的 API 和预训练模型库，覆盖推理与训练场景。其核心价值在于降低 AI 模型使用门槛，推动开源生态发展，广泛应用于 NLP、CV、语音等领域的快速原型与生产部署。",
+      "summary": "Hugging Face Transformers 是当前最流行的模型定义与训练框架，支持文本、视觉、音频及多模态模型，提供统一的 API 和预训练模型库，覆盖推理与训练场景。其核心价值在于降低 AI 模型使用门槛，加速从研究到生产的落地，广泛应用于 NLP、CV、语音等领域。",
       "highlights": [
-        "统一 API 支持数千种预训练模型，覆盖多模态任务",
-        "与 PyTorch、TensorFlow、JAX 深度集成，训练推理无缝切换",
-        "社区活跃，模型库丰富，持续跟进最新研究"
+        "统一 API 支持数千种预训练模型，一键加载与微调",
+        "与 PyTorch、TensorFlow、JAX 深度集成，灵活切换后端",
+        "社区活跃，模型库持续更新，覆盖最新 SOTA 架构"
       ],
       "score": 9,
       "tags": [
         "LLM",
         "Deep Learning",
+        "NLP",
         "Multi-modal",
-        "Open Source"
+        "Framework"
       ]
     }
   },
@@ -330,21 +334,21 @@
     "title": "firecrawl/firecrawl",
     "url": "https://github.com/firecrawl/firecrawl",
     "source": "github_trending",
-    "popularity": 161366,
+    "popularity": 162023,
     "summary": "The context API to search, scrape, and interact with the web at scale. 🔥",
     "analysis": {
-      "summary": "Firecrawl 是一个强大的网页数据抓取与交互 API，支持大规模搜索、抓取和与网页内容互动。它提供简洁的接口，可将任意网页转换为干净的 Markdown 或结构化数据，适用于 AI 训练、内容聚合、监控等场景。其核心优势在于处理 JavaScript 渲染页面、绕过反爬机制，并支持批量操作，极大简化了数据采集流程。",
+      "summary": "Firecrawl 是一个强大的网页数据抓取与交互 API，支持大规模搜索、抓取和网页交互。其核心价值在于将复杂的网页数据提取过程简化为统一的 API 调用，适用于构建 AI 应用的数据管道、市场调研、内容聚合等场景。技术亮点包括支持 JavaScript 渲染、结构化数据提取、以及多格式输出，能高效处理动态网页。",
       "highlights": [
-        "支持 JavaScript 渲染页面抓取，输出干净 Markdown 或结构化数据",
-        "提供搜索、抓取、批量处理及与网页交互的完整 API",
-        "内置反爬绕过和代理管理，适合大规模数据采集"
+        "提供统一的 API 接口，简化网页抓取与数据提取流程",
+        "支持 JavaScript 渲染和结构化数据提取，适配现代动态网页",
+        "可扩展至大规模数据抓取，适合 AI 训练数据收集"
       ],
       "score": 8,
       "tags": [
         "Web Scraping",
         "API",
         "Data Extraction",
-        "Crawler"
+        "AI"
       ]
     }
   },
@@ -352,21 +356,22 @@
     "title": "Snailclimb/JavaGuide",
     "url": "https://github.com/Snailclimb/JavaGuide",
     "source": "github_trending",
-    "popularity": 157537,
+    "popularity": 157571,
     "summary": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
     "analysis": {
-      "summary": "JavaGuide 是一份全面的 Java 面试与后端开发指南，覆盖计算机基础、数据库、分布式、高并发、系统设计及 AI 应用开发等核心知识。其内容系统、更新频繁，适合求职者系统复习和开发者日常查阅，是提升后端技术能力的实用宝典。",
+      "summary": "JavaGuide 是一份面向 Java 面试与后端开发的综合性指南，覆盖计算机基础、数据库、分布式、高并发、系统设计及 AI 应用开发等核心知识。内容系统全面，包含大量图解、实战案例和面试题解析，适合求职者系统复习及开发者日常查阅，是提升后端技术能力的优质开源资源。",
       "highlights": [
-        "覆盖面试高频考点，知识体系完整",
-        "持续更新，紧跟技术趋势，含 AI 应用开发",
-        "开源免费，社区活跃，质量有保障"
+        "覆盖面试全栈知识体系，从基础到高级架构",
+        "包含 AI 应用开发等前沿内容，紧跟技术趋势",
+        "社区活跃，持续更新，配套在线文档与学习路线"
       ],
       "score": 8,
       "tags": [
         "Java",
         "Interview",
         "Backend",
-        "System Design"
+        "System Design",
+        "AI"
       ]
     }
   },
@@ -374,14 +379,14 @@
     "title": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "source": "github_trending",
-    "popularity": 152856,
+    "popularity": 152883,
     "summary": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
     "analysis": {
-      "summary": "Langflow 是一个可视化低代码平台，用于构建和部署 AI 代理与工作流。它提供拖拽式界面，支持多种模型、向量库和工具集成，可快速搭建 RAG、Agent 等复杂应用，并支持一键部署为 API，极大降低 AI 应用开发门槛。",
+      "summary": "Langflow 是一个可视化低代码平台，用于构建和部署 AI 代理与工作流。它提供拖拽式界面，支持多种模型、向量库和工具集成，可快速搭建 RAG、Agent 等应用，并支持一键部署为 API，显著降低 AI 应用开发门槛。",
       "highlights": [
-        "可视化拖拽编排，无需代码即可构建多步骤 AI 工作流",
-        "内置丰富组件，支持 LLM、RAG、Agent 及外部工具集成",
-        "一键导出为 API，便于生产环境部署与集成"
+        "可视化拖拽编排，无需代码即可构建复杂 AI 工作流",
+        "内置丰富组件，支持 LLM、RAG、Agent 及多模型集成",
+        "一键部署为 API，便于集成到现有系统"
       ],
       "score": 8,
       "tags": [
@@ -397,22 +402,21 @@
     "title": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "source": "github_trending",
-    "popularity": 151413,
+    "popularity": 151535,
     "summary": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without reb",
     "analysis": {
-      "summary": "Dify是一个开源的LLM应用开发平台，支持构建Agent工作流和RAG管道，集成多种AI模型与工具，提供可视化协作环境。可部署于云、VPC或自托管，帮助团队从原型快速过渡到生产，降低AI应用开发门槛。",
+      "summary": "Dify是一个开源的大模型应用开发平台，支持构建Agent工作流和RAG管道，集成多种AI模型与工具，提供可视化协作环境。可部署于云、VPC或本地，帮助团队从原型快速过渡到生产环境，降低AI应用开发门槛。",
       "highlights": [
-        "可视化编排Agent与RAG工作流，无需从零编码",
-        "支持主流模型与工具，灵活适配多种场景",
-        "云、VPC、自托管多部署方式，满足企业需求"
+        "可视化编排Agent与RAG流程，降低开发门槛",
+        "支持多模型接入与丰富工具生态，灵活适配业务",
+        "支持云、VPC、本地多种部署方式，便于生产落地"
       ],
       "score": 8,
       "tags": [
         "LLM",
         "Agent",
         "RAG",
-        "Workflow",
-        "Open Source"
+        "Low-code"
       ]
     }
   },
@@ -420,21 +424,21 @@
     "title": "open-webui/open-webui",
     "url": "https://github.com/open-webui/open-webui",
     "source": "github_trending",
-    "popularity": 147912,
+    "popularity": 148017,
     "summary": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "analysis": {
-      "summary": "Open WebUI 是一个用户友好的 AI 接口，支持 Ollama 和 OpenAI API 等多种后端。它提供直观的聊天界面、多模型管理、RAG 集成、提示词库和响应式设计，可本地部署或云端使用，适合个人和团队快速搭建 AI 助手平台。",
+      "summary": "Open WebUI 是一个用户友好的 AI 接口平台，支持 Ollama 和 OpenAI API 等多种后端，提供聊天、文档管理、插件扩展等功能。其核心价值在于简化 AI 应用的部署与使用，适合个人开发者、团队协作及企业快速搭建定制化 AI 助手，技术亮点包括多模型切换、响应式界面和本地化部署。",
       "highlights": [
-        "支持多种 AI 后端（Ollama、OpenAI 等），灵活集成",
-        "内置 RAG 和提示词库，增强交互体验",
-        "界面美观易用，支持多用户和权限管理"
+        "支持 Ollama、OpenAI 等多种 API，灵活集成",
+        "界面直观，易于部署，适合快速搭建 AI 应用",
+        "活跃社区，持续更新，功能丰富"
       ],
       "score": 8,
       "tags": [
         "AI Interface",
         "Ollama",
         "OpenAI",
-        "RAG",
+        "Web UI",
         "Self-hosted"
       ]
     }

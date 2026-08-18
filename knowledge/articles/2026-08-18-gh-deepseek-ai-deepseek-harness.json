@@ -1,0 +1,18 @@
+{
+  "id": "github-20260818-001",
+  "title": "deepseek-ai/deepseek-harness",
+  "source_url": "https://github.com/deepseek-ai/deepseek-harness",
+  "source_type": "github_trending",
+  "summary": "DeepSeek Harness 是一个插件化框架，将一切功能模块化，支持灵活扩展和集成。其核心价值在于通过统一的插件接口，简化AI工具链的构建与部署，提升开发效率。技术亮点包括模块化设计、动态加载和易于定制，适用于快速原型开发、生产环境部署及多模型协同场景。",
+  "tags": [
+    "Plugin Framework",
+    "AI Infrastructure",
+    "Modular Design",
+    "DeepSeek",
+    "github"
+  ],
+  "score": 8,
+  "status": "draft",
+  "created_at": "2026-08-18T08:36:57+00:00",
+  "updated_at": "2026-08-18T08:36:57+00:00"
+}
